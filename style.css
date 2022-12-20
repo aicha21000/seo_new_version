@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    color: #000000;
 }
 
 a,
@@ -239,7 +240,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -409,9 +410,10 @@ a {
 }
 p {
     font-size: 20px;
+    color: black;
 }
 q {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 footer p {
@@ -447,13 +449,13 @@ footer p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    color: #000000;
 }
 
 h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
 }
 
 .med-width-whitespace {
@@ -462,9 +464,7 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
+
 
 h3 {
     font-size: 20px;
@@ -503,6 +503,14 @@ h4{
     background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
 }
+.black-background .tc-white {
+    color: #FFFFFF;
+    font-size: 26px;
+}
+.black-background p {
+    color: #FFFFFF;
+    font-size: 20px;
+}
 
 .bold-link {
     font-weight: 900;
@@ -519,7 +527,7 @@ h4{
 }
 
 .tc-white {
-    font-size: 30px;
+    font-size: 24px;
     color: #ffffff!important;
 }
 
@@ -591,9 +599,7 @@ h4{
     border-color: rgba(255, 255, 255, 1);
 }
 
-.d-bloc .panel {
-    color: rgba(0, 0, 0, .5);
-}
+
 
 .d-bloc .panel button:hover {
     color: rgba(0, 0, 0, .7);
@@ -620,10 +626,9 @@ h4{
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
 }
-
-.d-bloc .panel,
-.l-bloc {
-    color: rgba(0, 0, 0, .5);
+a {
+    color: #000000;
+    text-decoration: none;
 }
 
 .d-bloc .panel button:hover,
@@ -771,4 +776,45 @@ h4{
     float: right;
     position: relative;
     z-index: 2;
+}
+
+label {
+    font-size: 20px;
+    color: black;
+}
+.form-control {
+    font-size: 20px;
+    color: black;
+}
+
+.contact-background {
+    background-color: rgb(216, 216, 216);
+    height: 100%;
+    padding: 40px 40px 40px 40px;
+    color: black;
+    font-size: 22px;
+}
+
+
+.contact-background h2 {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.contact-background a {
+    color: black;
+    text-decoration: none;
+  
+
+}
+address {
+    color: black;
+
+}
+
+.para {
+    text-align: justify;
+    padding: 10px;
 }

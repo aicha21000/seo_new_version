@@ -1,55 +1,84 @@
 <!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
-    
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="media.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="css/et-line.css">
-	
-    
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
-    <title>contact</title>
+	<head>
+        <meta charset="utf-8">
+        <meta
+            name="description"
+            content="Agence de web design - Nos solutions digitales pour développer votre business sur Internet">
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <!-- Google searche-console -->
+        <meta
+            name="google-site-verification"
+            content="hqCWucOfq9oSmE5GPdYbRHCHxnEZq9z9RVjQLuOtylQ">
 
-    
-<!-- Analytics -->
- 
-<!-- Analytics END -->
-    
-</head>
+        <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="media.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/et-line.min.css">
+
+        <script src="./js/jquery-2.1.0.js" ></script>
+        <script src="./js/bootstrap.js" ></script>
+        <script src="./js/blocs.js" ></script>
+        <script src="./js/jquery.touchSwipe.js" ></script>
+        <script src="./js/gmaps.js" ></script>
+
+        <!-- Google tag (gtag.js) -->
+
+        <title>Agence La Panthère - agence de web design</title>
+
+        <!-- Analytics -->
+
+        <!-- Analytics END -->
+    </head>	
 
 <!-- Principal conteneur -->
 <body>
     
 <!-- bloc-0 -->
-<header class="bloc bgc-white l-bloc " id="bloc-0"> 
+<header class="bloc bgc-white l-bloc" id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
-			<a class="navbar-brand logo_header" href="index.html" aria-label="Main">
-				<img src="img/agence-la-panthere-monochrome.svg" alt="logo agence La Panthère" >
-			  </a>
-			<div class="navbar-header">				
-					<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" aria-label="Toggle navigation">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+			<a
+				class="navbar-brand logo_header"
+				href="index.html"
+				aria-label="Main">
+				<img
+					src="img/agence-la-panthere-monochrome.svg"
+					alt="logo agence La Panthère">
+			</a>
+			<div class="navbar-header">
+				<button
+					id="nav-toggle"
+					type="button"
+					class="ui-navbar-toggle navbar-toggle"
+					data-toggle="collapse"
+					data-target=".navbar-1"
+					aria-label="Toggle navigation">
+					<span class="sr-only">Toggle navigation</span
+					><span class="icon-bar"></span
+					><span class="icon-bar"></span
+					><span class="icon-bar"></span>
 				</button>
 			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+			<div
+				class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="index.html" aria-label="aller sur la page d'accueil">Accueil</a>
-					</li>			
+						<a href="index.html" aria-current="page"
+							>Accueil</a
+						>
+					</li>
 					<li>
-						<a href="contact.html" aria-current="page" >Contact</a>
+						<a
+							href="contact.html"
+							aria-label="aller sur la page contact"
+							>Contact</a
+						>
 					</li>
 				</ul>
 			</div>
@@ -114,10 +143,19 @@
 					</button>
 				</form>
 			</div>
-			<div class="col-sm-6">
-				<p>
-					contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-				</p>
+			<div class="col-sm-6 contact-background">
+				<h2>Contact</h2>
+				<p>Vous pouvez nous contacter par courriel :<br></p>
+			
+					<a href="mailto:contact@agencelapanthere.com">contact@agencelapanthere.com</a>
+					<br> <br><p>Vous pouvez aussi venir nous voir au :</p>
+					<address>2 place Sathonay 69001 Lyon</address>
+					<h2>Horaires</h2><p>Ouvert de 9h à 18h, du lundi au vendredi</p> 
+				
+
+
+
+
 			</div>
 		</div>
 	</div>
@@ -125,7 +163,7 @@
 <!-- bloc-7 END -->
 
 <!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<button class="bloc-button btn btn-d scrollToTop " aria-label="Bouton Haut de Page" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></button>
 <!-- ScrollToTop Button END-->
 </main>
 
