@@ -56,10 +56,16 @@
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
-        max-width: 80%
+        max-width: 60%
     }
     .nav-center.navbar .nav {
-        max-width: 100%
+        max-width: 80%
+    }
+    .hero-bloc-text {
+       font-size: 40px;
+    }
+    p {
+        font-size: 22px;
     }
 }
 
@@ -102,6 +108,7 @@
         /* padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right); */
     }
+    
 }
 
 @media (max-width: 767px) {
@@ -254,4 +261,26 @@
     .bloc-mob-center-text {
         text-align: center;
     }
+    .black-background .tc-white {
+        font-size: 20px;
+    }
+    .black-background p {
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    footer p {
+        font-size: 16px;
+    }
+    .hero-bloc-text {
+        font-size: 30px;
+     }
+     p {
+         font-size: 18px;
+     }
+     .icon-md {
+        font-size: 24px!important;
+    }
+    
 }
