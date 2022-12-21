@@ -422,6 +422,9 @@ footer p {
     max-width: 800px;
     margin: auto auto auto auto;
 }
+.tight-width-whitespace2 {
+    width: 100%;
+}
 
 .h1 {
     font-size: 20px;
@@ -496,17 +499,20 @@ h4{
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
+.black-background2 {
+    background-color: rgba(165, 147, 99, 0.3);
+}
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
 }
 .black-background .tc-white {
-    color: #FFFFFF;
+    color: white;
     font-size: 26px;
     text-align: center;
 }
 .black-background p {
-    color: #FFFFFF;
+    color: white;
     font-size: 20px;
     text-align: center;
 }
@@ -527,7 +533,7 @@ h4{
 }
 
 .tc-white {
-    color: #ffffff!important;
+    color: white;
 }
 
 .btn-atomic-tangerine {
