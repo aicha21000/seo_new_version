@@ -437,7 +437,7 @@ footer p {
 }
 
 .social {
-    max-width: 400px;
+    width: 400px;
     margin: auto auto auto auto;
     
 }
@@ -503,12 +503,12 @@ h4{
 .black-background .tc-white {
     color: #FFFFFF;
     font-size: 26px;
-    text-align: justify;
+    text-align: center;
 }
 .black-background p {
     color: #FFFFFF;
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
 }
 
 .bold-link {
@@ -522,7 +522,8 @@ h4{
 
 
 .bgc-atomic-tangerine {
-    background-color: #af6e50;
+    background-color: #9e6449;
+    color: #FFFFFF;
 }
 
 .tc-white {
@@ -530,7 +531,7 @@ h4{
 }
 
 .btn-atomic-tangerine {
-    background: #c97e5b;
+    background: #9e6449;
     color: #FFFFFF;
 }
 
@@ -624,10 +625,7 @@ h4{
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
 }
-a {
-    color: #000000;
-    text-decoration: none;
-}
+
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
@@ -806,17 +804,19 @@ label {
 }
 
 
-.contact-background a {
-    color: black;
-    text-decoration: none;
-}
-
 address {
     color: black;
 
 }
 
 .para {
-    text-align: justify;
-    padding: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.bgc-atomic-tangerine .contact {
+    font-size: 20px;
+}
+.contact-background a {
+    color: black;
 }
